@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <!--<h1><a href="index.html"><span>Amour</span></a></h1>-->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        {% comment %} <a href="index.html"><img src="{% static 'img/logo.webp' %}" alt="" class="img-fluid"></a> {% endcomment %}
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
